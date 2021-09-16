@@ -1,0 +1,17 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A cli to keep track of daily todos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Saurabh Mehta <saurabhmehta1601@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "console-table-printer": "^2.10.0",
+    "inquirer": "^8.1.4",
+    "sqlite3": "^5.0.2"
+  }
+}
