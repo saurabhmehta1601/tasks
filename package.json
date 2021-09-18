@@ -2,7 +2,10 @@
   "name": "todo",
   "version": "1.0.0",
   "description": "A cli to keep track of daily todos",
-  "main": "index.js",
+  "bin": {
+    "todo":"bin/todos.js"
+  },
+  "main": "bin/todos.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
