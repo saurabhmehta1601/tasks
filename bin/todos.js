@@ -5,6 +5,7 @@ const addTodo = require("../lib/addTodo");
 const showTodos = require("../lib/showTodos");
 const markTodoAsDone = require("../lib/markTodoAsDone");
 const deleteTodos = require("../lib/deleteTodo");
+const deleteAllTodos = require("../lib/deleteAllTodos");
 
 if(process.argv.length <= 2 ){
     printHelp()
@@ -20,6 +21,9 @@ else if(process.argv[2] === "markdone"){
 }
 else if(process.argv[2] === 'delete'){
     deleteTodos()
+}
+else if(process.argv[2] === 'deleteall'){
+    deleteAllTodos()
 }else{
     printHelp()
 }
